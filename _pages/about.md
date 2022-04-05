@@ -8,9 +8,10 @@ profile:
   align: right
   image: martin.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office S4.30</p>
+    <p>Dept. of Mathematics</p>
+    <p>King's College London</p>
+    <p>Strand, WC2R 2LS</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
