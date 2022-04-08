@@ -33,6 +33,30 @@ jobs:
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
+
+    - name: 'Setup pandoc'
+    description: 'Setup pandoc and add it to your PATH'
+    author: 'Niklas Mollenhauer'
+    inputs:
+      pandoc-version:
+        required: false
+        default: 'latest'
+        description: |
+          Exact version of pandoc to use.
+          You can find available versions here:
+          https://github.com/jgm/pandoc/releases
+      token:
+        description: |
+          This option defaults to the workflow scoped GitHub Token.
+          It is used to not hit the rate limit while determining the 'latest' version of pandoc.
+          If you need to specify a different token to be used, you can use this option.
+          We expect that normal users typically don't have to do that.
+        required: false
+        default: ${{ github.token }}
+    runs:
+      using: 'node16'
+      main: 'lib/setup-pandoc.js'
+      
     - name: Setup deploy options
       id: setup
       run: |
@@ -45,7 +69,7 @@ jobs:
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
-    - name: Deploy website 
+    - name: Deploy website
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
+                    --src ${{ steps.setup.outputs.SRC_BRANCH }}
+                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
