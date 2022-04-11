@@ -34,9 +34,6 @@ jobs:
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
 
-    - name: pandoc
-    - uses: docker://pandoc/core:2.9
-
     - name: Setup deploy options
       id: setup
       run: |
@@ -49,6 +46,7 @@ jobs:
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
+
     - name: Deploy website
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }}

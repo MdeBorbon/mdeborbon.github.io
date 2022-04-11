@@ -155,7 +155,6 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-pandoc
 
 # Sitemap settings
 defaults:

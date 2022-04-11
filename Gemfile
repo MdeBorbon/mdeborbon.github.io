@@ -17,5 +17,5 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
-    gem 'jekyll-pandoc'
+    gem 'pandoc-ruby'
 end
