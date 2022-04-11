@@ -27,6 +27,8 @@ jobs:
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
+    - name: pandoc
+      uses: docker://pandoc/latex:2.9
     - name: Install deps
       run: |
         gem install bundler
