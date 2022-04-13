@@ -22,4 +22,4 @@ I am a member of the [Geometry Group](https://www.kcl.ac.uk/research/geometry) a
 
 I research complex differential geometry and geometric analysis.
 
-I co-organize the [KCL Geometry Seminar](https://sites.google.com/view/kclgeometryseminar/home?authuser=0).
+I co-organize the [KCL Geometry Seminar](https://danielplatt.github.io/kcl-geometry-seminar.html).
