@@ -5,4 +5,4 @@ title: CV
 description: #
 nav: true
 ---
-Here is a [PDF](../assets/pdf/CV-DEBORBON.pdf) of my Curriculum Vitae.
+To get a PDF of my Curriculum Vitae click [HERE](../assets/pdf/CV-DEBORBON.pdf).
