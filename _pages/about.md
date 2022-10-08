@@ -25,4 +25,4 @@ My PhD thesis is available [HERE](https://spiral.imperial.ac.uk/handle/10044/1/3
 
 I am a member of the [Geometry Group](https://www.kcl.ac.uk/research/geometry) at King's College London.
 
-I co-organize the [KCL Geometry Seminar](https://mdeborbon.github.io/kcl-geometry-seminar/).
+I co-organize the [KCL Geometry Seminar](https://kcl-geometry-seminar.github.io/).
