@@ -6,7 +6,7 @@ title: Martin de Borbon # the website title (if blank, full name will be used in
 first_name: Martin
 middle_name:
 last_name: de Borbon
-email: martin.deborbon@utdallas.edu
+email: m.de-borbon@lboro.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Martin de Borbon. Personal website. Mathematics.
 footer_text: >
@@ -57,7 +57,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: MdeBorbon # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: martindeborbon
 scholar_userid: ZVzyvRIAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-9078-4624 # your ORCID ID
 medium_username: # your Medium username
