@@ -91,6 +91,11 @@ then
 fi
 git checkout -b $DEPLOY_BRANCH
 
+# update uri
+- name: Deploy
+  run: |
+    bundle update uri
+    yes | bash bin/deploy --verbose --src master --deploy gh-pages
 # Build site
 bundle exec jekyll build
 
