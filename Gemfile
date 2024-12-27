@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'uri', '= 1.0.2' # or whatever version you need
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
