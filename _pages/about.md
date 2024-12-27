@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a member of the [Geometry and Mathematical Physics Group](https://www.lboro.ac.uk/departments/maths/research/research-groups-and-centres/geometry-mathematical-physics/) at Loughborough University.
 
-I research complex differential geometry and geometric analysis.
+I research Kähler geometry.
 I did my PhD at Imperial College London under the supervision of
 Simon Donaldson.
 My PhD thesis is available [HERE](https://spiral.imperial.ac.uk/handle/10044/1/31373).

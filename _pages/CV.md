@@ -3,6 +3,6 @@ layout: page
 permalink: /CV/
 title: CV
 description: #
-nav: true
+nav: false
 ---
 To download a PDF of my Curriculum Vitae click [HERE](../assets/pdf/CV.pdf).

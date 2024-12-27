@@ -17,9 +17,3 @@ nav: true
 * Asymptotically conical Ricci-flat Kähler metrics with cone singularities [video](https://scgp.stonybrook.edu/video/results.php?profile_id=2409)
 
 ---
-
-## **Conferences**
-
-* [Special Metrics in Complex Geometry](https://sites.google.com/view/smcg2022/home), University of Texas at Dallas, May 2022
-
-* [Spherical surfaces and related topics](https://www1.mat.uniroma1.it/people/mondello/ricerca/spherical2022/), Cortona, June 2022
