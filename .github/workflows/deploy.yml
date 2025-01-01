@@ -76,6 +76,10 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip"
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
