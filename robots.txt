@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mdeborbon.github.io/pages/MdeBorbon/sitemap.xml
+Sitemap: https://mdeborbon.github.io/sitemap.xml
