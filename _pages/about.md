@@ -6,7 +6,7 @@ subtitle: Lecturer in Mathematics
 
 profile:
   align: right
-  image: martin_pub2.png
+  image: /assets/img/martin_pub2.png
   address: >
     <p>Office: 2.04</p>
     <p>Mathematical Sciences</p>
