@@ -4,6 +4,7 @@ permalink: /talks/
 title: Recorded talks
 description:
 nav: true
+nav_order: 2
 ---
 
 #### *YRW Geometry, Dynamics, and Field Theory*

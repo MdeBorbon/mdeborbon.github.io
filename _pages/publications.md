@@ -5,6 +5,7 @@ title: Publications
 description:
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2019, 2017]
 nav: true
+nav_order: 1
 ---
 
 All my papers are available on [arXiv](https://arxiv.org/search/math?query=de+Borbon%2C+Martin&searchtype=author&abstracts=show&order=-announced_date_first&size=50)
