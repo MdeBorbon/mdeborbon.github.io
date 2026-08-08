@@ -1,6 +1,6 @@
 "Spotti":
   - firstname: ["Cristiano", "C."]
-    url: https://pure.au.dk/portal/en/persons/id(261fcffe-4966-480e-bfa4-03ea8b9932a3).html
+    url: https://sites.google.com/view/cristianospotti/home
 
 "Edwards":
   - firstname: ["Gregory", "G."]
@@ -13,3 +13,7 @@
 "Panov":
   - firstname: ["Dmitri", "D."]
     url: https://www.kcl.ac.uk/people/dmitri-panov
+
+"Veselov":
+  - firstname: ["Alexander P.", "Alexander", "A. P."]
+    url: https://www.lboro.ac.uk/departments/maths/staff/alexander-veselov/

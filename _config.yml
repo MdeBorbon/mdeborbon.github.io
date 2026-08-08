@@ -205,7 +205,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: de Borbon
+  # BibTeX parses "de" as a surname prefix and "Borbon" as the last name.
+  last_name: Borbon
   first_name: [Martin, M.]
 
   style: apa
